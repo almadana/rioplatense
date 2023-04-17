@@ -4,14 +4,42 @@ title: "che-Norma! Recursos psicolingüísticos del Español Rioplatense"
 
 Repositorio de recursos psicolingüísticos de investigación (publicaciones, datos, etc.) disponibles para el Español Rioplatense.
 
-Esta es una lista *caprichosa*. Puedes agregar recursos a través de un *pull request* en el repo de github.
+Esta es una lista *caprichosa*. Puedes agregar recursos a través de un *pull request* en el [repo de github](https://github.com/almadana/rioplatense).
 
 ## Normas léxicas
 
+#### Asociación libre
+
+-   Cabana, Á., Zugarramurdi, C., Valle-Lisboa, J. C., & De Deyne, S. (2023). [The" Small World of Words" free association norms for Rioplatense Spanish. Behavior](https://link.springer.com/article/10.3758/s13428-023-02070-z) Research Methods, 1-18.
+
+-   Martínez-Cuitiño, M., & Barreyro, J. P. (2010). [¿Pirámides y Palmeras o Pirámides y Faraones?: Adaptación y validación de un test de asociación semántica al español rioplatense.](http://www.scielo.org.ar/scielo.php?script=sci_arttext&pid=S1668-70272010000200004) *Interdisciplinaria*, *27*(2), 247-260.
+
+-   Manoiloff, L., Artstein, M., Canavoso, M. B., Fernández, L., & Segui, J. (2010). [Expanded norms for 400 experimental pictures in an Argentinean Spanish-speaking population.](https://link.springer.com/article/10.3758/BRM.42.2.452) *Behavior Research Methods*, *42*, 452-460. \**Español cordobés*
+
+### Completamiento verbal
+
+-   Abusamra, V., Miranda, M. A., & Ferreres, A. (2007). [Evaluación de la iniciación e inhibición verbal en español. Adaptación y normas del test de Hayling](https://d1wqtxts1xzle7.cloudfront.net/39234291/Abusamra__Miranda__Ferreres__2007._Evaluacion_de_la_iniciacion_e_inhibicion_verbal._Normas_del_Test_de_Hayling.-libre.pdf?1445009286=&response-content-disposition=inline%3B+filename%3DEvaluacion_de_la_iniciacion_e_inhibicion.pdf&Expires=1681767268&Signature=MhrJY9lNRfEg8io9pr-i1me-cpFLWFgarwP4Y1baUpIJw8yIwmj9OCsAfokngLTqGYmQTkol8LsjmCHVLAt1b70uGkeLr9Z62aU~3H5tEdSgOkhLTOb4zdywW7Vd8uX~I3gJDVp1Uea3ei~2PsfVikAQNha~0cyXvMNZ9vgtAEFqoZ9kA1XlWa-KFlHZ2sSmamqXtyvZaTxOXMF~FDhm6gKbIMvkVJdy08joiCye3i-WOMzxEZonAgpka9uxHDF-V5LjKWk5UW7pSA4EDYZCBzaqDA-kRh5b8Ou7mK6hLVmSe0ClueZp9xsU7ywXnk0IIQ-YONXrgNErPgMrmCcw4Q__&Key-Pair-Id=APKAJLOHF5GGSLRBV4ZA). *Revista Argentina de Neuropsicología*, *9*(19), 19-32.
+
+#### Producción de rasgos semánticos
+
+-   Vivas, J., Vivas, L., Comesaña, A., Coni, A. G., & Vorano, A. (2017). [Spanish semantic feature production norms for 400 concrete concepts.](https://link.springer.com/article/10.3758/s13428-016-0777-2) *Behavior Research Methods*, *49*, 1095-1106.
+
+#### Normas categoriales
+
 ## Instrumentos de medida
+
+-   [**APP Lexiland**](https://lexiland.com.uy/) Zugarramurdi, C., Assis, M. S., & Valle-Lisboa, J. (2022). [Technology on Our Side: Using Technology for Transferring Cognitive Science to Education. In Cognitive Sciences and Education in Non-WEIRD Populations: A Latin American Perspective](https://link.springer.com/chapter/10.1007/978-3-031-06908-6_17) (pp. 287-303). Cham: Springer International Publishing.
+
+-   **HABLAN** Zamora, D. J., De Simone, L., & Martínez-Cuitiño, M. (2021). [Presentación de una app Argentina para la rehabilitación del lenguaje de niños y adultos.](https://www.aacademica.org/000-012/322.pdf) In *XIII Congreso Internacional de Investigación y Práctica Profesional en Psicología. XXVIII Jornadas de Investigación. XVII Encuentro de Investigadores en Psicología del MERCOSUR. III Encuentro de Investigación de Terapia Ocupacional. III Encuentro de Musicoterapia*. Facultad de Psicología-Universidad de Buenos Aires.
+
+-   **TECLE** Ferreres, A., Abusamra, V., Casajús, A., & China, N. (2011). Adaptación y estudio preliminar de un test breve para evaluar la eficacia lectora (TECLE). Neuropsicologia Latinoamericana, 3(1).
+
+-   Graneri, J., Dansilio, S., Martínez-Cuitiño, M., Grasso, L., Cantore, M. S., & Brasca, L. (2022). [Dissociation between function and manipulation in semantic representations of motor impaired subjects: A new test](https://www.tandfonline.com/doi/abs/10.1080/02643294.2022.2114825). Cognitive Neuropsychology, 39(3-4), 208-226.
 
 ## Embeddings
 
 Próximamente...
 
 ## Corpora
+
+Próximamente...
