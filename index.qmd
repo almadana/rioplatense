@@ -1,0 +1,17 @@
+---
+title: "che-Norma! Recursos psicolingüísticos del Español Rioplatense"
+---
+
+Repositorio de recursos psicolingüísticos de investigación (publicaciones, datos, etc.) disponibles para el Español Rioplatense.
+
+Esta es una lista *caprichosa*. Puedes agregar recursos a través de un *pull request* en el repo de github.
+
+## Normas léxicas
+
+## Instrumentos de medida
+
+## Embeddings
+
+Próximamente...
+
+## Corpora
