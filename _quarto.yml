@@ -9,6 +9,9 @@ website:
         text: Home
       - about.qmd
   body-footer: "Creado y mantenido por Álvaro Cabana."
+  search: 
+    location: navbar
+    type: overlay
 
 format:
   html:

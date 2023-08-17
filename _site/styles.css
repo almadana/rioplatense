@@ -1,1 +1,46 @@
 /* css styles */
+
+:root {
+  --rio-de-la-plata-blue: #80B3D0;
+  --light-gray: #D3D3D3;
+  --white: #FFFFFF;
+  --dark-gray: #696969;
+  --dark-blue: #34495E;
+}
+
+/* Establecer el color de fondo y el color del texto para el cuerpo del sitio */
+body {
+  background-color: var(--white);
+  color: var(--dark-gray);
+}
+
+.navbar {
+  background-color: var(--rio-de-la-plata-blue);
+}
+
+/* Cambiar el color de fondo de la barra de navegación en su versión expandida (mobile) */
+.navbar-collapse {
+  background-color: var(--rio-de-la-plata-blue);
+}
+
+/* Establecer el color de fondo y el color del texto para el encabezado */
+header {
+  color: var(--rio-de-la-plata-blue);
+  background-color: var(--white);
+}
+
+/* Establecer el color de los enlaces */
+a {
+  color: var(--dark-blue);
+}
+
+/* Establecer el color de los enlaces al pasar el cursor sobre ellos */
+a:hover {
+  color: var(--rio-de-la-plata-blue);
+}
+
+/* Establecer el color de fondo y el color del texto para el pie de página */
+footer {
+  background-color: var(--light-gray);
+  color: var(--dark-gray);
+}

@@ -4,11 +4,11 @@ title: "che-Norma! Recursos psicolingüísticos del Español Rioplatense"
 
 Repositorio de recursos psicolingüísticos de investigación (publicaciones, datos, etc.) disponibles para el Español Rioplatense.
 
-Esta es una lista *caprichosa*. Puedes agregar recursos a través de un *pull request* en el [repo de github](https://github.com/almadana/rioplatense).
+Esta es una lista *caprichosa*. Puedes agregar recursos a través de un *pull request* en el [repo de github](https://github.com/almadana/rioplatense), o mediante un correo a `acabana arr psico edu uy`
 
 ## Normas léxicas
 
-#### Asociación libre
+#### Asociación
 
 -   Cabana, Á., Zugarramurdi, C., Valle-Lisboa, J. C., & De Deyne, S. (2023). [The" Small World of Words" free association norms for Rioplatense Spanish. Behavior](https://link.springer.com/article/10.3758/s13428-023-02070-z) Research Methods, 1-18.
 
