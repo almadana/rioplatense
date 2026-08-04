@@ -70,8 +70,6 @@ QUERIES = [
     '"semantic feature" norms Argentina Spanish',
     "normas categoriales español rioplatense",
     "picture norms Argentine Spanish",
-    '"Behavior Research Methods" rioplatense OR "argentino" normas',
-    "tecle eficacia lectora argentino",
     "asociación semántica rioplatense",
 ]
 
@@ -470,35 +468,67 @@ def main() -> int:
     with args.md_out.open("w", encoding="utf-8") as f:
         f.write(md)
 
-    # votos.txt: interface simple para el admin (? / si / no)
-    prev_votes: dict[str, str] = {}
+    # votos.txt: merge con pendientes previos (p.ej. de sugeridos.txt)
+    prev_by_key: dict[str, dict] = {}
     if parse_votos is not None and VOTOS_PATH.exists():
         for r in parse_votos(VOTOS_PATH):
-            prev_votes[item_key(r.get("doi"), r.get("title") or "")] = r["vote"]
+            prev_by_key[item_key(r.get("doi"), r.get("title") or "")] = {
+                "vote": r["vote"] if r["vote"] in ("?", "si", "no") else "?",
+                "year": r.get("year"),
+                "doi": r.get("doi"),
+                "title": r.get("title"),
+            }
 
-    ballot_rows = []
+    ballot_rows: dict[str, dict] = dict(prev_by_key)
     for c in candidates:
         doi = normalize_doi(c.get("doi"))
         title = c.get("title") or ""
-        vote = prev_votes.get(item_key(doi, title), "?")
-        if vote not in ("?", "si", "no"):
-            vote = "?"
-        ballot_rows.append(
-            {"vote": vote, "year": c.get("year"), "doi": doi, "title": title}
-        )
-    if parse_votos is not None:
-        write_votos(ballot_rows, VOTOS_PATH)
+        k = item_key(doi, title)
+        if k in ballot_rows:
+            # conservar voto humano; refrescar metadatos de título/año si faltan
+            if not ballot_rows[k].get("title") and title:
+                ballot_rows[k]["title"] = title
+            if not ballot_rows[k].get("year") and c.get("year"):
+                ballot_rows[k]["year"] = c.get("year")
+            continue
+        ballot_rows[k] = {
+            "vote": "?",
+            "year": c.get("year"),
+            "doi": doi,
+            "title": title,
+        }
 
-    print(f"\nCandidatos nuevos: {len(candidates)}")
+    # quitar de la boleta lo que ya pasó a known/rejected
+    known_dois_set = known_dois
+    filtered_rows = []
+    for row in ballot_rows.values():
+        d = row.get("doi")
+        if d and d in known_dois_set:
+            continue
+        if is_known(
+            {"doi": d, "title": row.get("title")},
+            known_dois_set,
+            known_titles,
+        ):
+            continue
+        filtered_rows.append(row)
+
+    if parse_votos is not None:
+        write_votos(filtered_rows, VOTOS_PATH)
+
+    print(f"\nCandidatos nuevos (búsqueda): {len(candidates)}")
+    print(f"  en votos (total cola): {len(filtered_rows)}")
     print(f"  YAML  → {args.yaml_out.relative_to(ROOT)}")
     print(f"  MD    → {args.md_out.relative_to(ROOT)}")
     print(f"  VOTOS → {VOTOS_PATH.relative_to(ROOT)}  ← editá esto (?/si/no)")
-    if candidates:
-        print("\nTop 5:")
-        for c in candidates[:5]:
-            print(f"  [{c.get('relevance_score', 0):2d}] {c.get('year')} — {c.get('title')}")
+    if candidates or filtered_rows:
+        if candidates:
+            print("\nTop 5 búsqueda:")
+            for c in candidates[:5]:
+                print(f"  [{c.get('relevance_score', 0):2d}] {c.get('year')} — {c.get('title')}")
         print("\nPara votar: editá candidates/votos.txt y corré:")
         print("  python scripts/apply_votes.py")
+        print("Sugerir por DOI:  candidates/sugeridos.txt  →  python scripts/from_dois.py")
     return 0
 
 

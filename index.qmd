@@ -36,6 +36,14 @@ Esta es una lista *caprichosa*. Puedes agregar recursos a través de un *pull re
 
 - Fumagalli, J., Shalóm, D. E., Soriano, F., Carden, J. R., Cabañas Fale, P., Tomio, A., Borovinsky, G., & Martínez-Cuitiño, M. (2015). [Normas categoriales para una muestra de hablantes adultos del español de Argentina.](https://doi.org/10.35670/1667-4545.v15.n1.14907) *Revista Evaluar*.
 
+#### Normas afectivas
+
+- Irrazábal, N., & Tonini, F. (2026). [Affective norms for texts in Rioplatense Spanish (ANET-RS): Adaptation and cross-cultural variations in emotional explicitness, gender, and age.](https://doi.org/10.3758/s13428-026-02947-9) *Behavior Research Methods*.
+
+#### Frecuencia léxica
+
+- Fumagalli, J., Sánchez, M. E., Bianchi, B., Cancino, M., Cocaro, C., Melman, M., & Zabala, L. (2024). [Diccionario de frecuencia léxica infantil para el español rioplatense: el Cuenta Palabras.](https://doi.org/10.5281/zenodo.14051547) *Revista de Lengua y Literatura*.
+
 ## Instrumentos de medida
 
 - [**APP Lexiland**](https://lexiland.com.uy/) Zugarramurdi, C., Assis, M. S., & Valle-Lisboa, J. (2022). [Technology on Our Side: Using Technology for Transferring Cognitive Science to Education. In Cognitive Sciences and Education in Non-WEIRD Populations: A Latin American Perspective](https://link.springer.com/chapter/10.1007/978-3-031-06908-6_17) (pp. 287-303). Cham: Springer International Publishing.
@@ -56,4 +64,4 @@ Próximamente...
 
 ## Corpora
 
-Próximamente...
+- Travi, F., Bianchi, B., Fernández Slezak, D., & Kamienkowski, J. E. (2026). [Cuentos: A Large-Scale Eye-Tracking Reading Corpus on Spanish Narrative Texts.](https://doi.org/10.1038/s41597-026-06798-z) *Scientific Data*.

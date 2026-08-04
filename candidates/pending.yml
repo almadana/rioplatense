@@ -15,7 +15,7 @@ queries:
 - asociación semántica rioplatense
 from_year: 2005
 min_score: 3
-count: 15
+count: 18
 items:
 - title: Normas categoriales para una muestra de hablantes adultos del español de
     Argentina
@@ -284,3 +284,56 @@ items:
   cited_by: 16
   source_query: '"Behavior Research Methods" rioplatense OR "argentino" normas'
   relevance_score: 3
+- title: 'Cuentos: A Large-Scale Eye-Tracking Reading Corpus on Spanish Narrative
+    Texts'
+  authors: Fermín Travi; Bruno Bianchi; Diego Fernández Slezak; Juan E. Kamienkowski
+  year: 2026
+  doi: 10.1038/s41597-026-06798-z
+  url: https://doi.org/10.1038/s41597-026-06798-z
+  openalex_id: https://openalex.org/W7128694924
+  venue: Scientific Data
+  abstract_snippet: Eye-tracking is a well-established method for studying reading
+    processes. Our gaze jumps word to word, sampling information almost sequentially.
+    Time spent on each word, along with skipping or revisiting patterns, provides
+    proxies for cognitive processes during comprehension. However, few studies have
+    focused on Spanish, where empirical data remain scarce, and little is known about
+    how findings fr…
+  is_oa: true
+  oa_url: https://www.nature.com/articles/s41597-026-06798-z_reference.pdf
+  cited_by: 0
+  source_query: sugeridos.txt
+  relevance_score: 99
+- title: 'Affective norms for texts in Rioplatense Spanish (ANET-RS): Adaptation and
+    cross-cultural variations in emotional explicitness, gender, and age'
+  authors: Natalia Irrazábal; Fernando Tonini
+  year: 2026
+  doi: 10.3758/s13428-026-02947-9
+  url: https://doi.org/10.3758/s13428-026-02947-9
+  openalex_id: https://openalex.org/W7135058352
+  venue: Behavior Research Methods
+  abstract_snippet: ''
+  is_oa: true
+  oa_url: http://hdl.handle.net/11336/289882
+  cited_by: 0
+  source_query: sugeridos.txt
+  relevance_score: 99
+- title: 'Diccionario de frecuencia léxica infantil para el español rioplatense: el
+    Cuenta Palabras'
+  authors: Fumagalli, Julieta; Sánchez, María Elina; Bianchi, Bruno; Cancino, Matías;
+    Cocaro, César; Melman, Martín; Zabala, Laura
+  year: 2024
+  doi: 10.5281/zenodo.14051547
+  url: https://revele.uncoma.edu.ar/index.php/lingustica/article/view/5593
+  openalex_id: https://openalex.org/W6968241988
+  venue: Revista de Lengua y Literatura (National University of Comahue)
+  abstract_snippet: La frecuencia léxica es una de las variables psicolingüísticas
+    más importantes en el estudio de la comprensión y la producción del lenguaje oral
+    y escrito. Esta variable explica por qué las palabras que nos encontramos más
+    frecuentemente en la vida diaria seprocesan de manera más rápida y efectiva que
+    aquellas que rara vez leemos o escuchamos. Cualquier investigación que se realice
+    en el marco de …
+  is_oa: true
+  oa_url: https://revele.uncoma.edu.ar/index.php/lingustica/article/download/5593/62487
+  cited_by: 0
+  source_query: sugeridos.txt
+  relevance_score: 99

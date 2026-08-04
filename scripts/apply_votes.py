@@ -14,6 +14,8 @@ Ejemplo:
 
 Luego:
   python scripts/apply_votes.py
+
+Los "si" se agregan a data/known.yml y a index.qmd (sección Recién aceptados).
 """
 
 from __future__ import annotations
@@ -33,13 +35,19 @@ VOTOS_PATH = ROOT / "candidates" / "votos.txt"
 KNOWN_PATH = ROOT / "data" / "known.yml"
 REJECTED_PATH = ROOT / "data" / "rejected.yml"
 PENDING_PATH = ROOT / "candidates" / "pending.yml"
+INDEX_PATH = ROOT / "index.qmd"
+
+# Bloque en index.qmd donde se agregan los "si" automáticamente
+INDEX_MARKER_START = "<!-- che-norma:aceptados:start -->"
+INDEX_MARKER_END = "<!-- che-norma:aceptados:end -->"
+INDEX_SECTION_TITLE = "## Recién aceptados"
 
 HEADER = """\
 # votos.txt — che-Norma! (editá esto para votar)
 #
 # En cada línea, cambiá el primer campo:
 #   ?   = pendiente
-#   si  = aceptar (pasa a data/known.yml)
+#   si  = aceptar (pasa a data/known.yml y a index.qmd)
 #   no  = rechazar (pasa a data/rejected.yml)
 #
 # Formato:
@@ -164,14 +172,65 @@ def write_votos(rows: list[dict], path: Path) -> None:
 
 def suggest_markdown(item: dict) -> str:
     authors = item.get("authors") or "Autores, A."
+    # estilo de cita del sitio: comas en vez de ;
+    authors = authors.replace(";", ",")
     year = item.get("year") or "AAAA"
     title = item.get("title") or "Título"
     doi = normalize_doi(item.get("doi"))
     url = item.get("url") or (f"https://doi.org/{doi}" if doi else "")
     venue = item.get("venue") or ""
     if url:
-        return f"-   {authors} ({year}). [{title}]({url}). *{venue}*."
-    return f"-   {authors} ({year}). {title}. *{venue}*."
+        line = f"-   {authors} ({year}). [{title}]({url})."
+        if venue:
+            line += f" *{venue}*."
+        return line
+    line = f"-   {authors} ({year}). {title}."
+    if venue:
+        line += f" *{venue}*."
+    return line
+
+
+def index_already_has(qmd: str, item: dict) -> bool:
+    doi = normalize_doi(item.get("doi"))
+    if doi and doi in qmd.lower():
+        return True
+    title = (item.get("title") or "").strip()
+    if len(title) >= 24 and title[:24].lower() in qmd.lower():
+        return True
+    return False
+
+
+def append_accepted_to_index(accepted: list[dict]) -> list[dict]:
+    """Agrega bullets al bloque de recién aceptados en index.qmd. Devuelve los escritos."""
+    if not accepted or not INDEX_PATH.exists():
+        return []
+
+    qmd = INDEX_PATH.read_text(encoding="utf-8")
+    to_add = [a for a in accepted if not index_already_has(qmd, a)]
+    if not to_add:
+        return []
+
+    bullets = "\n".join(suggest_markdown(a) for a in to_add) + "\n"
+
+    if INDEX_MARKER_START in qmd and INDEX_MARKER_END in qmd:
+        pre, rest = qmd.split(INDEX_MARKER_START, 1)
+        mid, post = rest.split(INDEX_MARKER_END, 1)
+        # mid puede tener intro + bullets previos
+        if mid.strip() == "" or mid.strip() == INDEX_SECTION_TITLE:
+            mid = f"\n\n{INDEX_SECTION_TITLE}\n\nÍtems aceptados por votación; movelos a la sección que corresponda.\n\n"
+        new_qmd = pre + INDEX_MARKER_START + mid.rstrip() + "\n\n" + bullets + INDEX_MARKER_END + post
+    else:
+        block = (
+            f"\n\n{INDEX_MARKER_START}\n"
+            f"{INDEX_SECTION_TITLE}\n\n"
+            f"Ítems aceptados por votación; movelos a la sección que corresponda.\n\n"
+            f"{bullets}"
+            f"{INDEX_MARKER_END}\n"
+        )
+        new_qmd = qmd.rstrip() + block
+
+    INDEX_PATH.write_text(new_qmd, encoding="utf-8")
+    return to_add
 
 
 def main() -> int:
@@ -241,16 +300,21 @@ def main() -> int:
         VOTOS_PATH,
     )
 
+    written = append_accepted_to_index(accepted)
+
     print(f"Aplicado:  si={n_si}  no={n_no}  quedan pendientes={n_pending}")
     print(f"  known    → {KNOWN_PATH.relative_to(ROOT)} ({len(known['items'])} ítems)")
     print(f"  rejected → {REJECTED_PATH.relative_to(ROOT)} ({len(rejected['items'])} ítems)")
     print(f"  votos    → {VOTOS_PATH.relative_to(ROOT)}")
+    if written:
+        print(f"  index    → {INDEX_PATH.relative_to(ROOT)} (+{len(written)} en “Recién aceptados”)")
+    elif accepted:
+        print(f"  index    → sin cambios (ya estaban en index.qmd)")
 
     if accepted:
-        print("\n## Añadí a mano en index.qmd (sugerencia):\n")
+        print("\nAceptados:")
         for a in accepted:
-            print(suggest_markdown(a))
-            print()
+            print(f"  · {suggest_markdown(a)}")
 
     return 0
 

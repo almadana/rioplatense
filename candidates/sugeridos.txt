@@ -1,0 +1,10 @@
+# sugeridos.txt — DOIs propuestos a mano (che-Norma!)
+#
+# Un DOI por línea. Acepta también URL https://doi.org/...
+# Luego: python scripts/from_dois.py
+# Los resueltos quedan como:  # enviado: 10.xxxx/...
+#
+
+# enviado: 10.1038/s41597-026-06798-z
+# enviado: 10.3758/s13428-026-02947-9
+# enviado: 10.5281/zenodo.14051547
