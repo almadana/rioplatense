@@ -16,6 +16,8 @@ Esta es una lista *caprichosa*. Puedes agregar recursos a través de un *pull re
 
 -   Manoiloff, L., Artstein, M., Canavoso, M. B., Fernández, L., & Segui, J. (2010). [Expanded norms for 400 experimental pictures in an Argentinean Spanish-speaking population.](https://link.springer.com/article/10.3758/BRM.42.2.452) *Behavior Research Methods*, *42*, 452-460. \**Español cordobés*
 
+-   Martínez-Cuitiño, M., Barreyro, J. P., Wilson, M. A., & Jaichenco, V. (2015). [Nuevas normas semánticas y de tiempos de latencia para un set de 400 dibujos en español.](https://doi.org/10.16888/interd.2015.32.2.6) *Interdisciplinaria*, *32*(2).
+
 ### Completamiento verbal
 
 -   Abusamra, V., Miranda, M. A., & Ferreres, A. (2007). [Evaluación de la iniciación e inhibición verbal en español. Adaptación y normas del test de Hayling](https://d1wqtxts1xzle7.cloudfront.net/39234291/Abusamra__Miranda__Ferreres__2007._Evaluacion_de_la_iniciacion_e_inhibicion_verbal._Normas_del_Test_de_Hayling.-libre.pdf?1445009286=&response-content-disposition=inline%3B+filename%3DEvaluacion_de_la_iniciacion_e_inhibicion.pdf&Expires=1681767268&Signature=MhrJY9lNRfEg8io9pr-i1me-cpFLWFgarwP4Y1baUpIJw8yIwmj9OCsAfokngLTqGYmQTkol8LsjmCHVLAt1b70uGkeLr9Z62aU~3H5tEdSgOkhLTOb4zdywW7Vd8uX~I3gJDVp1Uea3ei~2PsfVikAQNha~0cyXvMNZ9vgtAEFqoZ9kA1XlWa-KFlHZ2sSmamqXtyvZaTxOXMF~FDhm6gKbIMvkVJdy08joiCye3i-WOMzxEZonAgpka9uxHDF-V5LjKWk5UW7pSA4EDYZCBzaqDA-kRh5b8Ou7mK6hLVmSe0ClueZp9xsU7ywXnk0IIQ-YONXrgNErPgMrmCcw4Q__&Key-Pair-Id=APKAJLOHF5GGSLRBV4ZA). *Revista Argentina de Neuropsicología*, *9*(19), 19-32.
@@ -24,9 +26,15 @@ Esta es una lista *caprichosa*. Puedes agregar recursos a través de un *pull re
 
 -   Vivas, J., Vivas, L., Comesaña, A., Coni, A. G., & Vorano, A. (2017). [Spanish semantic feature production norms for 400 concrete concepts.](https://link.springer.com/article/10.3758/s13428-016-0777-2) *Behavior Research Methods*, *49*, 1095-1106.
 
+-   Vivas, L., Yerro, M., Romanelli, S., García Coni, A., Comesaña, A., Lizarralde, F. A. J., Passoni, I., & Vivas, J. (2021). [New Spanish semantic feature production norms for older adults.](https://doi.org/10.3758/s13428-021-01660-z) *Behavior Research Methods*.
+
+-   MacIntyre, M., Vivas, L., & Vivas, J. (2017). [Weighted Feature Typology Based on Semantic Feature Production Norms.](https://doi.org/10.9788/tp2017.2-21en) *Temas em Psicologia*.
+
 #### Normas categoriales
 
 -   Zamora, D. J., Camilotto, N. R., Romero, N. N., Shalóm, D. E., & Martínez-Cuitiño, M. [Normas categoriales para adolescentes hablantes del español rioplatense. *Revista de Investigación en Logopedia*](https://www.researchgate.net/profile/Macarena-Martinez-Cuitino/publication/377985444_Normas_para_70_categorias_semanticas_obtenidas_de_adolescentes_hablantes_del_espanol_rioplatense/links/65c3d04c34bbff5ba7f53da5/Normas-para-70-categorias-semanticas-obtenidas-de-adolescentes-hablantes-del-espanol-rioplatense.pdf). DOI: 10.5209/rlog.86859
+
+-   Fumagalli, J., Shalóm, D. E., Soriano, F., Carden, J. R., Cabañas Fale, P., Tomio, A., Borovinsky, G., & Martínez-Cuitiño, M. (2015). [Normas categoriales para una muestra de hablantes adultos del español de Argentina.](https://doi.org/10.35670/1667-4545.v15.n1.14907) *Revista Evaluar*.
 
 ## Instrumentos de medida
 
@@ -36,7 +44,11 @@ Esta es una lista *caprichosa*. Puedes agregar recursos a través de un *pull re
 
 -   **TECLE** Ferreres, A., Abusamra, V., Casajús, A., & China, N. (2011). Adaptación y estudio preliminar de un test breve para evaluar la eficacia lectora (TECLE). Neuropsicologia Latinoamericana, 3(1).
 
+-   **PAPDI** Manoiloff, L., Vivas, L., Andreini, S. C., Linares, N., Fuentes Leiza, M. S., Del Boca, L., & Seguí, J. (2018). [Prueba Argentina Psicolingüística de Denominación de Imágenes (PAPDI): Construcción y desarrollo (Primera parte).](https://doi.org/10.16888/interd.2018.35.1.5) *Interdisciplinaria*.
+
 -   Graneri, J., Dansilio, S., Martínez-Cuitiño, M., Grasso, L., Cantore, M. S., & Brasca, L. (2022). [Dissociation between function and manipulation in semantic representations of motor impaired subjects: A new test](https://www.tandfonline.com/doi/abs/10.1080/02643294.2022.2114825). Cognitive Neuropsychology, 39(3-4), 208-226.
+
+-   Rivera, D., Perrin, P. B., Morlett-Paredes, A., et al. (2015). [Rey–Osterrieth Complex Figure – copy and immediate recall: Normative data for the Latin American Spanish speaking adult population.](https://doi.org/10.3233/nre-151285) *Neurorehabilitation*.
 
 ## Embeddings
 

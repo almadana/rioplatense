@@ -1,0 +1,286 @@
+generated_at: '2026-08-04'
+source: openalex
+queries:
+- rioplatense normas
+- rioplatense Spanish norms
+- '"Rioplatense Spanish" psycholinguistic'
+- '"Spanish" "Argentina" "free association" norms'
+- '"español argentino" normas léxicas'
+- '"Argentine Spanish" lexical norms'
+- '"semantic feature" norms Argentina Spanish'
+- normas categoriales español rioplatense
+- picture norms Argentine Spanish
+- '"Behavior Research Methods" rioplatense OR "argentino" normas'
+- tecle eficacia lectora argentino
+- asociación semántica rioplatense
+from_year: 2005
+min_score: 3
+count: 15
+items:
+- title: Normas categoriales para una muestra de hablantes adultos del español de
+    Argentina
+  authors: Julieta Fumagalli; Diego E. Shalóm; Federico Soriano; Julia Roberta Carden;
+    Paula Cabañas Fale; Ailín Tomio; Geraldine Borovinsky; Macarena Martínez‐Cuitiño
+  year: 2015
+  doi: 10.35670/1667-4545.v15.n1.14907
+  url: https://doi.org/10.35670/1667-4545.v15.n1.14907
+  openalex_id: https://openalex.org/W2546886959
+  venue: Revista Evaluar
+  abstract_snippet: 'In this paper we present the first category norms for the Spanish
+    of Argentina. Undergraduate students were assessed in a written fluency task in
+    20 semantic categories: animals, fruits, vegetables, body parts, trees, flowers,
+    professions, tools, kitchen utensils, musical instruments, vehicles, furniture,
+    clothing, appliances, school supplies, sports, parts of the house, games, countries
+    and gemst…'
+  is_oa: true
+  oa_url: https://revistas.unc.edu.ar/index.php/revaluar/article/download/14907/14876
+  cited_by: 8
+  source_query: rioplatense normas
+  relevance_score: 10
+- title: Procesamiento de formas no binarias en español rioplatense
+  authors: Gabriela Mariel Zunino; Noelia Ayelén Stetie
+  year: 2022
+  doi: 10.35869/hafh.v24i2.4115
+  url: https://doi.org/10.35869/hafh.v24i2.4115
+  openalex_id: https://openalex.org/W4297824933
+  venue: Hesperia Anuario de Filología Hispánica
+  abstract_snippet: Diversos estudios gramaticales se han abocado al estudio de las
+    innovaciones morfológicas utilizadas como formas no binarias en español (-x; -e).
+    Sin embargo, no existen trabajos experimentales que analicen su procesamiento
+    psicolingüístico ni las múltiples y complejas relaciones entre producción y comprensión
+    en lo que respecta al lenguaje no binario. Para analizar este fenómeno, realizamos
+    una t…
+  is_oa: true
+  oa_url: https://revistas.uvigo.es/index.php/AFH/article/download/4115/3314
+  cited_by: 7
+  source_query: rioplatense Spanish norms
+  relevance_score: 9
+- title: 'P2‐498: LOCAL PSYCHOLINGUISTIC CONSIDERATIONS IN NEUROPSYCHOLOGICAL ASSESSMENT:
+    THE ARGENTINE SPANISH EXPERIENCE'
+  authors: Leticia Vivas; Macarena Martínez‐Cuitiño; Laura Manoiloff
+  year: 2018
+  doi: 10.1016/j.jalz.2018.06.1191
+  url: https://doi.org/10.1016/j.jalz.2018.06.1191
+  openalex_id: https://openalex.org/W2897581911
+  venue: Alzheimer s & Dementia
+  abstract_snippet: Emerging opportunities for global big data sharing and analysis
+    make it vital to adapt and develop neuropsychological tests in a way that takes
+    account of psycholinguistic variables that may vary between cultures and thus
+    differentially bias participants' responses. Robust regional norms will be essential
+    to the identification of these variables. We have built three normative corpuses
+    with Argenti…
+  is_oa: true
+  oa_url: https://onlinelibrary.wiley.com/doi/pdfdirect/10.1016/j.jalz.2018.06.1191
+  cited_by: 0
+  source_query: '"semantic feature" norms Argentina Spanish'
+  relevance_score: 9
+- title: 'Prueba Argentina Psicolingüística de Denominación de Imágenes (PAPDI): Construcción
+    y desarrollo (Primera parte)'
+  authors: Laura Manoiloff; Leticia Vivas; Silvia Constanza Andreini; Nicolas Linares;
+    Mercedes Soledad Fuentes Leiza; Laura Del Boca; Juan Seguí
+  year: 2018
+  doi: 10.16888/interd.2018.35.1.5
+  url: https://doi.org/10.16888/interd.2018.35.1.5
+  openalex_id: https://openalex.org/W4239353803
+  venue: Interdisciplinaria Revista de Psicología y Ciencias Afines
+  abstract_snippet: ''
+  is_oa: true
+  oa_url: https://doi.org/10.16888/interd.2018.35.1.5
+  cited_by: 1
+  source_query: '"Spanish" "Argentina" "free association" norms'
+  relevance_score: 6
+- title: NUEVAS NORMAS SEMÁNTICAS Y DE TIEMPOS DE LATENCIA PARA UN SET DE 400 DIBUJOS
+    EN ESPAÑOL
+  authors: Macarena Martínez‐Cuitiño; Juan Pablo Barreyro; Maximiliano A. Wilson;
+    Virginia Jaichenco
+  year: 2015
+  doi: 10.16888/interd.2015.32.2.6
+  url: https://doi.org/10.16888/interd.2015.32.2.6
+  openalex_id: https://openalex.org/W4250964977
+  venue: Interdisciplinaria Revista de Psicología y Ciencias Afines
+  abstract_snippet: La utilización de estímulos pictóricos en la investigación básica
+    y clínica puso de manifiesto la necesidad de disponer de material con normas pictóricas,
+    lingüísticas y semánticas adecuadas a cada población. El objetivo del estudio
+    que se informa es presentar los tiempos de latencia obtenidos a partir de una
+    tarea de denominación con tiem pos de reacción utilizando el Programa DM DX para
+    el set d…
+  is_oa: true
+  oa_url: https://www.redalyc.org/pdf/180/18043528006.pdf
+  cited_by: 3
+  source_query: '"Spanish" "Argentina" "free association" norms'
+  relevance_score: 6
+- title: Automatic quantification of lexical ambiguity using large-scale word association
+    data
+  authors: Ignacio Iglesias; Blair C. Armstrong; Julieta Laurino; Laura Kaczer; Álvaro
+    Cabana
+  year: 2026
+  doi: 10.3758/s13428-026-03050-9
+  url: https://doi.org/10.3758/s13428-026-03050-9
+  openalex_id: https://openalex.org/W4413235610
+  venue: Behavior Research Methods
+  abstract_snippet: Most words in a language are lexically ambiguous and are associated
+    with multiple meanings that vary in their frequency and relatedness. Although
+    ambiguity is a fundamental property of language, there are extensive issues with
+    existing measures of this construct. For instance, dictionary-based classifications
+    and subjective ratings of meaning number and frequency struggle to capture the
+    graded nat…
+  is_oa: true
+  oa_url: https://doi.org/10.31234/osf.io/tpnxq_v1
+  cited_by: 0
+  source_query: '"Rioplatense Spanish" psycholinguistic'
+  relevance_score: 5
+- title: 'Efectos de un programa de enseñanza de la escritura en la escuela secundaria:
+    un enfoque psicolingüístico'
+  authors: Chimenti, María de los Ángeles
+  year: 2025
+  doi: null
+  url: http://repositorio.filo.uba.ar:/handle/filodigital/18788
+  openalex_id: https://openalex.org/W7111458360
+  venue: FILO - Digital  (University of Buenos Aires)
+  abstract_snippet: 'Fil: Chimenti, María de los Ángeles. Universidad de Buenos Aires.
+    Facultad de Filosofiía y Letras; Argentina.'
+  is_oa: true
+  oa_url: http://repositorio.filo.uba.ar/bitstream/filodigital/18788/1/uba_ffyl_t_2025_se_chimenti.pdf
+  cited_by: 0
+  source_query: tecle eficacia lectora argentino
+  relevance_score: 5
+- title: 'The Pandemic in Words: Tracking Fast Semantic Changes via a Large-Scale
+    Word Association Task'
+  authors: Julieta Laurino; Simon De Deyne; Álvaro Cabana; Laura Kaczer
+  year: 2023
+  doi: 10.1162/opmi_a_00081
+  url: https://doi.org/10.1162/opmi_a_00081
+  openalex_id: https://openalex.org/W4378212405
+  venue: Open Mind
+  abstract_snippet: Most words have a variety of senses that can be added, removed,
+    or altered over time. Understanding how they change across different contexts
+    and time periods is crucial for revealing the role of language in social and cultural
+    evolution. In this study we aimed to explore the collective changes in the mental
+    lexicon as a consequence of the COVID-19 pandemic. We performed a large-scale
+    word associa…
+  is_oa: true
+  oa_url: https://direct.mit.edu/opmi/article-pdf/doi/10.1162/opmi_a_00081/2133848/opmi_a_00081.pdf
+  cited_by: 13
+  source_query: '"Rioplatense Spanish" psycholinguistic'
+  relevance_score: 4
+- title: New Spanish semantic feature production norms for older adults
+  authors: Leticia Vivas; M. Yerro; Sofía Romanelli; Ana García Coni; Ana Comesaña;
+    Francisco Ángel José Lizarralde; I. Passoni; Jorge Vivas
+  year: 2021
+  doi: 10.3758/s13428-021-01660-z
+  url: https://doi.org/10.3758/s13428-021-01660-z
+  openalex_id: https://openalex.org/W3192561844
+  venue: Behavior Research Methods
+  abstract_snippet: ''
+  is_oa: true
+  oa_url: https://link.springer.com/content/pdf/10.3758/s13428-021-01660-z.pdf
+  cited_by: 10
+  source_query: '"Spanish" "Argentina" "free association" norms'
+  relevance_score: 4
+- title: Norms for name agreement, familiarity, subjective frequency, and imageability
+    for 348 object names in Tunisian Arabic
+  authors: Mariem Boukadi; Cirine Zouaidi; Maximiliano A. Wilson
+  year: 2015
+  doi: 10.3758/s13428-015-0602-3
+  url: https://doi.org/10.3758/s13428-015-0602-3
+  openalex_id: https://openalex.org/W360559091
+  venue: Behavior Research Methods
+  abstract_snippet: ''
+  is_oa: true
+  oa_url: https://link.springer.com/content/pdf/10.3758/s13428-015-0602-3.pdf
+  cited_by: 46
+  source_query: '"Argentine Spanish" lexical norms'
+  relevance_score: 4
+- title: 'Rey–Osterrieth Complex Figure – copy and immediate recall: Normative data
+    for the Latin American Spanish speaking adult population'
+  authors: Diego Rivera; Paul B. Perrin; A. Morlett-Paredes; J. Galarza-del-Angel;
+    C. Martínez; M.T. Garza; C.P. Saracho; W. Rodríguez; Yaneth Rodríguez‐Agudelo;
+    B Rábago; Álvaro Aliaga; S. Schebela
+  year: 2015
+  doi: 10.3233/nre-151285
+  url: https://doi.org/10.3233/nre-151285
+  openalex_id: https://openalex.org/W2264749028
+  venue: Neurorehabilitation
+  abstract_snippet: 'OBJECTIVE: To generate normative data on the Rey-Osterrieth Complex
+    Figure Test (ROCF) across 11 countries in Latin America, with country-specific
+    adjustments for gender, age, and education, where appropriate. METHOD: The sample
+    consisted of 3,977 healthy adults who were recruited from Argentina, Bolivia,
+    Chile, Cuba, El Salvador, Guatemala, Honduras, Mexico, Paraguay, Peru, and, Puerto
+    Rico. Each…'
+  is_oa: true
+  oa_url: https://content.iospress.com:443/download/neurorehabilitation/nre151285?id=neurorehabilitation%2Fnre151285
+  cited_by: 45
+  source_query: picture norms Argentine Spanish
+  relevance_score: 4
+- title: 'Experimental Approaches to Sound Variation: a Sociophonetic Study of Labial
+    and Velar Fricatives and Approximants in Argentine Spanish'
+  authors: Natalia Mazzaro
+  year: 2012
+  doi: null
+  url: http://hdl.handle.net/1807/31859
+  openalex_id: https://openalex.org/W2184836754
+  venue: TSpace (University of Toronto)
+  abstract_snippet: The alternation between labial and velar fricatives (e.g. [x]uego
+    fuego ‘fire’) and labial and velar approximants (e.g. a[ɣ]uelo abuelo ‘grandfather’)
+    frequently co-occur in disparate Spanish dialects (Colombia, New Mexico, El Salvador,
+    Ecuador, Chile, among others). I hypothesize that these alternations are triggered
+    by the perceptual similarity between such variants in the context of [u] and [w]…
+  is_oa: true
+  oa_url: https://utoronto.scholaris.ca/bitstreams/b6d80de0-3dca-4378-bc95-f3fcb2803e9c/download
+  cited_by: 11
+  source_query: '"Argentine Spanish" lexical norms'
+  relevance_score: 4
+- title: 'The Galician MultiPic: a picture dataset that captures lexical variation'
+  authors: María Álvarez de la Granja; M. Carmen Parafita Couto; Ana Rita Sá-Leite;
+    Isabel Fraga; Jon Andoni Duñabeitia; Christos Pliatsikas; Montserrat Comesaña
+  year: 2025
+  doi: 10.3389/fpsyg.2025.1551000
+  url: https://doi.org/10.3389/fpsyg.2025.1551000
+  openalex_id: https://openalex.org/W4408842550
+  venue: Frontiers in Psychology
+  abstract_snippet: In psycholinguistic research, careful selection and control of
+    stimuli are essential for gaining insights into cognitive processes. Within this
+    field, pictures often serve as stimuli, which requires the use of image databases
+    to investigate linguistic, mnemonic, and visual perceptual phenomena in different
+    populations (children without disabilities, adults, elderly people, illiterate,
+    and brain-da…
+  is_oa: true
+  oa_url: https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2025.1551000/pdf
+  cited_by: 1
+  source_query: '"Rioplatense Spanish" psycholinguistic'
+  relevance_score: 3
+- title: Weighted Feature Typology Based on Semantic Feature Pr oduction Norms
+  authors: Mauro MacIntyre; Leticia Vivas; Jorge Vivas
+  year: 2017
+  doi: 10.9788/tp2017.2-21en
+  url: http://doi.org/10.9788/tp2017.2-21en
+  openalex_id: https://openalex.org/W2729194371
+  venue: Temas em Psicologia
+  abstract_snippet: 'Feature taxonomy proposed by sensory-functional theories to differentiate
+    between domains (living or non-living things) received a number of critics: (a)
+    the vagueness of the defi nition of attribute types; (b) the limitations of the
+    dichotomous taxonomy; (c) the insuffi ciency of feature production variable to
+    discriminate between domains. This paper aims to contribute to overcome these
+    diffi cul…'
+  is_oa: true
+  oa_url: https://doi.org/10.9788/tp2017.2-21en
+  cited_by: 0
+  source_query: '"semantic feature" norms Argentina Spanish'
+  relevance_score: 3
+- title: 'Contexto e normas de associação para palavras: a redução do campo semântico'
+  authors: Gerson Américo Janczura
+  year: 2005
+  doi: 10.1590/s0103-863x2005000300011
+  url: https://doi.org/10.1590/s0103-863x2005000300011
+  openalex_id: https://openalex.org/W1974097167
+  venue: Paidéia (Ribeirão Preto)
+  abstract_snippet: Este estudo teve por objetivo coletar normas de associação semântica
+    para categorias naturais. Utilizando-se o método da associação livre, os participantes
+    foram solicitados a produzir a primeira associada que completasse o significado
+    de sentenças que serviam como contexto para as categorias. As associações produzidas
+    em dois contextos semânticos diferentes foram comparadas com associações produz…
+  is_oa: true
+  oa_url: https://www.scielo.br/j/paideia/a/5DpYkKfMxm33G8qcFTmMKss/?lang=pt&format=pdf
+  cited_by: 16
+  source_query: '"Behavior Research Methods" rioplatense OR "argentino" normas'
+  relevance_score: 3

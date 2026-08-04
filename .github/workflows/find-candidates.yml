@@ -1,0 +1,88 @@
+name: Buscar candidatos nuevos
+
+on:
+  schedule:
+    # Lunes 12:00 UTC (~9:00 AR/UY)
+    - cron: "0 12 * * 1"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  issues: write
+
+jobs:
+  find:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install deps
+        run: pip install -r scripts/requirements.txt
+
+      - name: Run finder
+        env:
+          OPENALEX_MAILTO: ${{ vars.OPENALEX_MAILTO || 'acabana+chenorma@users.noreply.github.com' }}
+        run: python scripts/find_candidates.py --from-year 2005 --min-score 3
+
+      - name: Count candidates
+        id: count
+        run: |
+          n=$(python -c "import yaml; d=yaml.safe_load(open('candidates/pending.yml')); print(d.get('count', 0))")
+          echo "n=$n" >> "$GITHUB_OUTPUT"
+          echo "Candidatos: $n"
+
+      - name: Commit pending files
+        if: steps.count.outputs.n != '0'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add candidates/pending.yml candidates/pending.md candidates/votos.txt
+          if git diff --staged --quiet; then
+            echo "Sin cambios en pending"
+          else
+            git commit -m "chore: actualizar candidatos OpenAlex ($(date -u +%Y-%m-%d))"
+            git push
+          fi
+
+      - name: Open or update review issue
+        if: steps.count.outputs.n != '0'
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          COUNT: ${{ steps.count.outputs.n }}
+        run: |
+          gh label create candidates \
+            --description "Candidatos automáticos para el índice che-Norma!" \
+            --color "1D76DB" 2>/dev/null || true
+
+          TITLE="Revisión de candidatos — $(date -u +%Y-%m-%d)"
+          BODY_FILE=$(mktemp)
+          {
+            echo "## Candidatos automáticos ($COUNT)"
+            echo ""
+            echo "### Cómo votar (simple)"
+            echo "1. Editá [\`candidates/votos.txt\`](../blob/main/candidates/votos.txt)"
+            echo "2. Cambiá \`?\` por \`si\` (aceptar) o \`no\` (rechazar)"
+            echo "3. Corré localmente: \`python scripts/apply_votes.py\`"
+            echo "4. Commit de \`data/known.yml\`, \`data/rejected.yml\` y el \`votos.txt\` actualizado"
+            echo "5. Pasá los \`si\` a \`index.qmd\` (el script sugiere el bullet)"
+            echo ""
+            echo "---"
+            echo ""
+            head -c 20000 candidates/votos.txt
+          } > "$BODY_FILE"
+
+          EXISTING=$(gh issue list --label candidates --state open --json number --jq '.[].number' || true)
+          for n in $EXISTING; do
+            gh issue close "$n" --comment "Superseded by nueva corrida del buscador." || true
+          done
+
+          gh issue create \
+            --title "$TITLE" \
+            --label "candidates" \
+            --body-file "$BODY_FILE"

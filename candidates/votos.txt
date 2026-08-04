@@ -1,0 +1,14 @@
+# votos.txt — che-Norma! (editá esto para votar)
+#
+# En cada línea, cambiá el primer campo:
+#   ?   = pendiente
+#   si  = aceptar (pasa a data/known.yml)
+#   no  = rechazar (pasa a data/rejected.yml)
+#
+# Formato:
+#   voto | año | doi-o-- | título
+#
+# Aplicar:  python scripts/apply_votes.py
+#
+
+# (sin candidatos pendientes)
