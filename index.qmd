@@ -40,6 +40,8 @@ Esta es una lista *caprichosa*. Puedes agregar recursos a través de un *pull re
 
 - Irrazábal, N., & Tonini, F. (2026). [Affective norms for texts in Rioplatense Spanish (ANET-RS): Adaptation and cross-cultural variations in emotional explicitness, gender, and age.](https://doi.org/10.3758/s13428-026-02947-9) *Behavior Research Methods*.
 
+- Leticia Sarli, Nadia Justel (2021). [Emotional words in Spanish: Adaptation and cross-cultural differences for the affective norms for English words (ANEW) on a sample of Argentinian adults](https://doi.org/10.3758/s13428-021-01682-7). *Behavior Research Methods*.
+
 #### Frecuencia léxica
 
 - Fumagalli, J., Sánchez, M. E., Bianchi, B., Cancino, M., Cocaro, C., Melman, M., & Zabala, L. (2024). [Diccionario de frecuencia léxica infantil para el español rioplatense: el Cuenta Palabras.](https://doi.org/10.5281/zenodo.14051547) *Revista de Lengua y Literatura*.
@@ -65,3 +67,7 @@ Próximamente...
 ## Corpora
 
 - Travi, F., Bianchi, B., Fernández Slezak, D., & Kamienkowski, J. E. (2026). [Cuentos: A Large-Scale Eye-Tracking Reading Corpus on Spanish Narrative Texts.](https://doi.org/10.1038/s41597-026-06798-z) *Scientific Data*.
+
+<!-- che-norma:aceptados:start -->
+
+<!-- che-norma:aceptados:end -->

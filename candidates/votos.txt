@@ -2,7 +2,7 @@
 #
 # En cada línea, cambiá el primer campo:
 #   ?   = pendiente
-#   si  = aceptar (pasa a data/known.yml)
+#   si  = aceptar (pasa a data/known.yml y a index.qmd)
 #   no  = rechazar (pasa a data/rejected.yml)
 #
 # Formato:

@@ -1,4 +1,4 @@
-generated_at: '2026-08-04'
+generated_at: '2026-08-05'
 source: openalex
 queries:
 - rioplatense normas
@@ -15,7 +15,7 @@ queries:
 - asociación semántica rioplatense
 from_year: 2005
 min_score: 3
-count: 18
+count: 19
 items:
 - title: Normas categoriales para una muestra de hablantes adultos del español de
     Argentina
@@ -335,5 +335,19 @@ items:
   is_oa: true
   oa_url: https://revele.uncoma.edu.ar/index.php/lingustica/article/download/5593/62487
   cited_by: 0
+  source_query: sugeridos.txt
+  relevance_score: 99
+- title: 'Emotional words in Spanish: Adaptation and cross-cultural differences for
+    the affective norms for English words (ANEW) on a sample of Argentinian adults'
+  authors: Leticia Sarli; Nadia Justel
+  year: 2021
+  doi: 10.3758/s13428-021-01682-7
+  url: https://doi.org/10.3758/s13428-021-01682-7
+  openalex_id: https://openalex.org/W3196969584
+  venue: Behavior Research Methods
+  abstract_snippet: ''
+  is_oa: true
+  oa_url: https://link.springer.com/content/pdf/10.3758/s13428-021-01682-7.pdf
+  cited_by: 24
   source_query: sugeridos.txt
   relevance_score: 99
