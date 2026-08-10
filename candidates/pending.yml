@@ -13,7 +13,7 @@ queries:
 - asociación semántica rioplatense
 from_year: 2005
 min_score: 3
-count: 6
+count: 7
 items:
 - title: 'NORMAS RIOPLATENSES DE PRODUCCIÓN DE ATRIBUTOS SEMÁNTICOS: ANÁLISIS DE ATRIBUTOS
     DISTINTIVOS POR CATEGORÍA SEMÁNTICA'
@@ -133,3 +133,23 @@ items:
   cited_by: 0
   source_query: '"semantic feature" norms Argentina Spanish'
   relevance_score: 3
+- title: Contrasting the semantic typology biases of Deaf and hearing nonsigners in
+    their conceptualization of time and space
+  authors: María Noel Macedo; Matías Yerro‐Avincetto; Jorge Vivas; Mauricio Castillo;
+    Maximiliano Meliande; Adriana de León; Alejandro Fojo; Roberto Aguirre
+  year: 2023
+  doi: 10.1017/s0142716423000413
+  url: http://dx.doi.org/10.1017/s0142716423000413
+  openalex_id: https://openalex.org/W4388047192
+  venue: Applied Psycholinguistics
+  abstract_snippet: Abstract The mental lexicon offers a window into the configuration
+    of conceptual domains such as space and time, which has been labeled as concrete
+    the former and abstract the latter in the current embodiment approach to cognition.
+    Space has a phonological and semantic value in sign languages, but not in spoken
+    languages. Additionally, the representation of time by spatial means is robust
+    in oral …
+  is_oa: false
+  oa_url: null
+  cited_by: 0
+  source_query: sugeridos.txt
+  relevance_score: 99
