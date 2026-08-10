@@ -22,13 +22,23 @@ Esta es una lista *caprichosa*. Puedes agregar recursos a través de un *pull re
 
 - Abusamra, V., Miranda, M. A., & Ferreres, A. (2007). [Evaluación de la iniciación e inhibición verbal en español. Adaptación y normas del test de Hayling](https://d1wqtxts1xzle7.cloudfront.net/39234291/Abusamra__Miranda__Ferreres__2007._Evaluacion_de_la_iniciacion_e_inhibicion_verbal._Normas_del_Test_de_Hayling.-libre.pdf?1445009286=&response-content-disposition=inline%3B+filename%3DEvaluacion_de_la_iniciacion_e_inhibicion.pdf&Expires=1681767268&Signature=MhrJY9lNRfEg8io9pr-i1me-cpFLWFgarwP4Y1baUpIJw8yIwmj9OCsAfokngLTqGYmQTkol8LsjmCHVLAt1b70uGkeLr9Z62aU~3H5tEdSgOkhLTOb4zdywW7Vd8uX~I3gJDVp1Uea3ei~2PsfVikAQNha~0cyXvMNZ9vgtAEFqoZ9kA1XlWa-KFlHZ2sSmamqXtyvZaTxOXMF~FDhm6gKbIMvkVJdy08joiCye3i-WOMzxEZonAgpka9uxHDF-V5LjKWk5UW7pSA4EDYZCBzaqDA-kRh5b8Ou7mK6hLVmSe0ClueZp9xsU7ywXnk0IIQ-YONXrgNErPgMrmCcw4Q__&Key-Pair-Id=APKAJLOHF5GGSLRBV4ZA). *Revista Argentina de Neuropsicología*, *9*(19), 19-32.
 
+#### Naming
+
+- Vivas, L., Manoiloff, L, Narvaez Linares, N.F., Fernández-Zaionz, A., Montero & L. (2020). [Argentinean Psycholinguistic Picture Naming Test in color](https://doi.org/10.1080/23279095.2020.1780238). *Applied Neuropsychology Adult*.
+
 #### Producción de rasgos semánticos
+
+- Macedo, M.N., Cabana, Á. & Aguirre, R. (2026). [Mapping Verb Meaning in Space:
+Spatial Feature Norms for Rioplatense Spanish Verbs.](https://escholarship.org/uc/item/8383t7zc) *Proceedings of the 2026 Cognitive Science Society Annual Meeting* 
 
 - Vivas, J., Vivas, L., Comesaña, A., Coni, A. G., & Vorano, A. (2017). [Spanish semantic feature production norms for 400 concrete concepts.](https://link.springer.com/article/10.3758/s13428-016-0777-2) *Behavior Research Methods*, *49*, 1095-1106.
 
 - Vivas, L., Yerro, M., Romanelli, S., García Coni, A., Comesaña, A., Lizarralde, F. A. J., Passoni, I., & Vivas, J. (2021). [New Spanish semantic feature production norms for older adults.](https://doi.org/10.3758/s13428-021-01660-z) *Behavior Research Methods*.
 
 - MacIntyre, M., Vivas, L., & Vivas, J. (2017). [Weighted Feature Typology Based on Semantic Feature Production Norms.](https://doi.org/10.9788/tp2017.2-21en) *Temas em Psicologia*.
+
+- Comesaña, A., Vivas, V., Vorano, A., Yerro-Avincetto, M. & Vivas, J. (2013). [NORMAS RIOPLATENSES DE PRODUCCIÓN DE ATRIBUTOS SEMÁNTICOS: ANÁLISIS DE ATRIBUTOS DISTINTIVOS POR CATEGORÍA SEMÁNTICA](https://openalex.org/W2700195256).
+
 
 #### Normas categoriales
 
@@ -68,6 +78,3 @@ Próximamente...
 
 - Travi, F., Bianchi, B., Fernández Slezak, D., & Kamienkowski, J. E. (2026). [Cuentos: A Large-Scale Eye-Tracking Reading Corpus on Spanish Narrative Texts.](https://doi.org/10.1038/s41597-026-06798-z) *Scientific Data*.
 
-<!-- che-norma:aceptados:start -->
-
-<!-- che-norma:aceptados:end -->

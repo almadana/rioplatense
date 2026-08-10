@@ -11,9 +11,4 @@
 # Aplicar:  python scripts/apply_votes.py
 #
 
-? | 2013 | - | NORMAS RIOPLATENSES DE PRODUCCIÓN DE ATRIBUTOS SEMÁNTICOS: ANÁLISIS DE ATRIBUTOS DISTINTIVOS POR CATEGORÍA SEMÁNTICA
-? | 2020 | 10.1080/23279095.2020.1780238 | Argentinean Psycholinguistic Picture Naming Test in color
-? | 2020 | - | [Mini Mental State Examination (MMSE): Normative data for the Rosario Metropolitan Area, Argentina].
-? | 2019 | 10.16888/interd.2018.35.2.1 | Prueba Argentina Psicolingüística de Denominación de Imágenes. Segunda parte: Estudio de sus propiedades psicométricas
-? | 2015 | 10.3233/nre-151287 | Test of Memory Malingering (TOMM): Normative data for the Latin American Spanish speaking adult population
-? | 2017 | 10.9788/tp2017.2-21es | Tipología de Atributos Ponderada en Base a Normas de Producción de Atributos Semánticos
+# (sin candidatos pendientes)
