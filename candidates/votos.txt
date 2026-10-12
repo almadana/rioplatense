@@ -11,4 +11,15 @@
 # Aplicar:  python scripts/apply_votes.py
 #
 
-# (sin candidatos pendientes)
+? | 2009 | - | NUEVAS NORMAS PSICOLINGÜÍSTICAS EN CASTELLANO PARA 400 DIBUJOS DE ALARIO Y FERRAND
+? | 2022 | - | Normas de ejes y dirección de movimiento para 180 verbos en español rioplatense
+? | 2019 | 10.29038/eejpl.2019.6.1.cui | Predictors of Picture Naming and Picture Categorization in Spanish
+? | 2026 | 10.5281/zenodo.22661316 | ANET-RS: construcción de un corpus de texto afectivo abierto para psicolingüística en español rioplatense
+? | 2026 | 10.5281/zenodo.22661131 | ANET-RS: construcción de un corpus de texto afectivo abierto para psicolingüística en español rioplatense
+? | 2012 | - | La aspiración de /s/ en español rioplatense: tango vs. rock
+? | 2025 | - | Frecuencia léxica subjetiva en la Lengua de Señas Uruguaya (LSU)
+? | 2022 | - | Revisión de instrumentos de evaluación neurocognitiva validados para población argentina
+? | 2023 | 10.53680/vertex.v34i159.366 | Tiempos de lectura de oraciones con lenguaje inclusivo en español: un estudio psicolingüístico
+? | 2021 | 10.48162/rev.54.004 | La técnica del fluir de la conciencia joyceana como característica integral del canon literario argentino del siglo XX
+? | 2012 | - | COMPARACIÓN DE ATRIBUTOS SEMÁNTICOS ENTRE DIFERENTES LENGUAS
+? | 2020 | 10.1371/journal.pone.0238976 | PicPsy: A new bank of 106 photographs and line drawings with written naming norms for Spanish-speaking children and adults

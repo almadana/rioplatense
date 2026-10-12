@@ -1,4 +1,4 @@
-generated_at: '2026-08-10'
+generated_at: '2026-10-12'
 source: openalex
 queries:
 - rioplatense normas
@@ -13,143 +13,236 @@ queries:
 - asociación semántica rioplatense
 from_year: 2005
 min_score: 3
-count: 7
+count: 12
 items:
-- title: 'NORMAS RIOPLATENSES DE PRODUCCIÓN DE ATRIBUTOS SEMÁNTICOS: ANÁLISIS DE ATRIBUTOS
-    DISTINTIVOS POR CATEGORÍA SEMÁNTICA'
-  authors: Ana Comesaña; Leticia Vivas; Agostina Vorano; Matías Yerro Avincetto; Jorge
-    Vivas
-  year: 2013
+- title: NUEVAS NORMAS PSICOLINGÜÍSTICAS EN CASTELLANO PARA 400 DIBUJOS DE ALARIO
+    Y FERRAND
+  authors: Macarena Martínez‐Cuitiño
+  year: 2009
   doi: null
-  url: https://openalex.org/W2700195256
-  openalex_id: https://openalex.org/W2700195256
-  venue: null
-  abstract_snippet: 'Introduccion: Las Normas de Produccion de Atributos Semanticos
-    permiten recolectar informacion sobre los tipos de atributos que utiliza una comunidad
-    linguistica para caracterizar un concepto. En el CIMEPB de la UNMdP se estan recolectando
-    dichas normas para poblacion rioplatense. Entre la informacion que ofrecen las
-    normas se encuentran la distintividad de los atributos. Esta propiedad permite
-    di…'
+  url: http://www.aacademica.org/000-020/149.pdf
+  openalex_id: https://openalex.org/W2137274179
+  venue: I Congreso Internacional de Investigación y Práctica Profesional en Psicología
+    XVI Jornadas de Investigación Quinto Encuentro de Investigadores en Psicología
+    del MERCOSUR
+  abstract_snippet: 'En este trabajo se presentan datos normativos para 400 dibujos
+    (Cycowicz, Friedman, Rothstein y Snodgrass, 1997) en una muestra del espanol de
+    Argentina. Las variables estandarizadas son: frecuencia lexica, imaginabilidad,
+    concretud, tipicalidad y categoria semantica. Estos datos se suman a los previamente
+    presentados por Manoiloff, Artstein, Canavoso, Fernandez, Moroni y Segui (2008):
+    acuerdo en …'
+  is_oa: false
+  oa_url: null
+  cited_by: 0
+  source_query: '"Argentine Spanish" lexical norms'
+  relevance_score: 14
+- title: Normas de ejes y dirección de movimiento para 180 verbos en español rioplatense
+  authors: Roberto Aguirre; Jorge Vivas; https://orcid.org/https://orcid.org/0000-0002-0311-2417;
+    Maria Noel Macedo Viera
+  year: 2022
+  doi: null
+  url: https://osf.io/qrshc
+  openalex_id: https://openalex.org/W7113413997
+  venue: OSF Preprints (OSF Preprints)
+  abstract_snippet: Image schemas are pre-conceptual structures that arise from body
+    movements in space, perceptual interactions and the way we manipulate objects.
+    They are gestalt structures that capture the structural contours of sensory-motor
+    experience by integrating information from multiple modalities. (Hampe, 2005).
+    The idea that sensorimotor perception influences language comprehension has given
+    rise to multi…
   is_oa: false
   oa_url: null
   cited_by: 0
   source_query: rioplatense normas
-  relevance_score: 10
-- title: Argentinean Psycholinguistic Picture Naming Test in color
-  authors: Leticia Vivas; Laura Manoiloff; Nicolás Francisco Narvaez Linares; Axel
-    Fernández Zaionz; Lucía Montero
-  year: 2020
-  doi: 10.1080/23279095.2020.1780238
-  url: https://doi.org/10.1080/23279095.2020.1780238
-  openalex_id: https://openalex.org/W3037671755
-  venue: Applied Neuropsychology Adult
-  abstract_snippet: Color has demonstrated to have an influence on picture naming
-    tasks. Objects with high color diagnosticity are recalled faster than objects
-    with low value. That is why the Argentinean Psycholinguistic Picture Naming Test
-    in color (PAPDIC in Spanish) was designed. The items and semantic cues were built
-    considering local psycholinguistic norms. A series of psychometric analyses were
-    performed on a s…
-  is_oa: true
-  oa_url: http://hdl.handle.net/11336/142193
-  cited_by: 5
-  source_query: picture norms Argentine Spanish
-  relevance_score: 9
-- title: '[Mini Mental State Examination (MMSE): Normative data for the Rosario Metropolitan
-    Area, Argentina].'
-  authors: Pablo Martino; Mauricio Cervigni; Leonardo Infante; Eduardo Oscar Audisio;
-    Daniel Gustavo Politis
-  year: 2020
-  doi: null
-  url: https://pubmed.ncbi.nlm.nih.gov/33890924
-  openalex_id: https://openalex.org/W3153053414
-  venue: PubMed
-  abstract_snippet: 'INTRODUCTION: It is estimated that population aging will continue
-    to rise over the next few years, increasing cases of cognitive impairment. This
-    requires having short, reliable and low-cost tests aimed at the early detection
-    of cognitive disorders. The Mini Mental State Examination (MMSE) is a widely used
-    test that allows an initial screening of cognitive disorders. Regarding this test,
-    there is …'
-  is_oa: true
-  oa_url: https://europepmc.org/article/MED/33890924
-  cited_by: 2
-  source_query: rioplatense Spanish norms
-  relevance_score: 7
-- title: 'Prueba Argentina Psicolingüística de Denominación de Imágenes. Segunda parte:
-    Estudio de sus propiedades psicométricas'
-  authors: Laura Manoiloff; Leticia Vivas; Silvia Constanza Andreini; Nicolás Llano
-    Línares; Mercedes Soledad Fuentes Leiza; Laura Del Boca; Juan Seguí
+  relevance_score: 13
+- title: Predictors of Picture Naming and Picture Categorization in Spanish
+  authors: Macarena Martínez Cuitiño; Federico Gonzalo Soriano; Virginia Jaichenco;
+    Brenda Steeb; Juan Pablo Barreyro
   year: 2019
-  doi: 10.16888/interd.2018.35.2.1
-  url: https://doi.org/10.16888/interd.2018.35.2.1
-  openalex_id: https://openalex.org/W4241848402
-  venue: Interdisciplinaria Revista de Psicología y Ciencias Afines
-  abstract_snippet: 'En el presente trabajo se detallan los análisis realizados con
-    el fin de estudiar las propiedades psicométricas la Prueba Argentina Psicolingüística
-    de Denominación de Imágenes (PAPDI). La misma cuenta con dos cualidades que representan
-    un valor agregado frente a las pruebas actualmente disponibles en nuestro país:
-    a) los estímulos fueron seleccionados controlando las variables que afectan las
-    eta…'
+  doi: 10.29038/eejpl.2019.6.1.cui
+  url: https://doi.org/10.29038/eejpl.2019.6.1.cui
+  openalex_id: https://openalex.org/W3124361178
+  venue: East European Journal of Psycholinguistics
+  abstract_snippet: The aim of this paper was to identify which psycholinguistic variables
+    are better predictors of performance for healthy participants in a picture naming
+    task and in a picture categorization task. A correlation analysis and a Path analysis
+    were carried out. The correlation analysis showed that naming accuracy and naming
+    latency are significant and positively correlated with lexical frequency and co…
   is_oa: true
-  oa_url: https://www.redalyc.org/journal/180/18058785002/18058785002.pdf
-  cited_by: 0
-  source_query: '"semantic feature" norms Argentina Spanish'
-  relevance_score: 6
-- title: 'Test of Memory Malingering (TOMM): Normative data for the Latin American
-    Spanish speaking adult population'
-  authors: Diego Rivera; Paul B. Perrin; Gershon Weiler; N. Ocampo-Barba; Álvaro Aliaga;
-    W. Rodríguez; Yaneth Rodríguez‐Agudelo; A. Aguayo; Melina Longoni; Stephen K.
-    Trapp; L. Esenarro; Juan Carlos Arango‐Lasprilla
-  year: 2015
-  doi: 10.3233/nre-151287
-  url: https://doi.org/10.3233/nre-151287
-  openalex_id: https://openalex.org/W2177796274
-  venue: Neurorehabilitation
-  abstract_snippet: 'BACKGROUND: The Test of Memory Malingering (TOMM) is an instrument
-    used to assess purposeful embellishment or fabrication of memory difficulties
-    for personal gain. Although the TOMM can be use in non-English speaking cultures,
-    it has not been validated in Spanish-speaking Central and South American contexts.
-    OBJECTIVE: To generate normative data on TOMM across 7 countries in Latin America,
-    with co…'
-  is_oa: true
-  oa_url: https://content.iospress.com:443/download/neurorehabilitation/nre151287?id=neurorehabilitation%2Fnre151287
-  cited_by: 32
+  oa_url: https://doi.org/10.29038/eejpl.2019.6.1.cui
+  cited_by: 1
   source_query: picture norms Argentine Spanish
-  relevance_score: 4
-- title: Tipología de Atributos Ponderada en Base a Normas de Producción de Atributos
-    Semánticos
-  authors: Mauro MacIntyre; Leticia Vivas; Jorge Vivas
-  year: 2017
-  doi: 10.9788/tp2017.2-21es
-  url: https://doi.org/10.9788/tp2017.2-21es
-  openalex_id: https://openalex.org/W2733218627
-  venue: Temas em Psicologia
-  abstract_snippet: 'La tipologa de atributos propuestas por las teoras sensorio-funcionales
-    para explicar las diferencias entre dominios (seres vivos y objetos inanimados)
-    cuenta con diversas crticas: (a) imprecisa defi nicin del tipo de atributo; (b)
-    limitaciones de la taxonoma dicotmica; (c) insufi ciencia de la variable frecuencia
-    de produccin para discriminar entre dominios. El presente trabajo pretende colaborar…'
+  relevance_score: 13
+- title: 'ANET-RS: construcción de un corpus de texto afectivo abierto para psicolingüística
+    en español rioplatense'
+  authors: Natalia Irrazábal; Fernando Tonini
+  year: 2026
+  doi: 10.5281/zenodo.22661316
+  url: https://doi.org/10.5281/zenodo.22661316
+  openalex_id: https://openalex.org/W7213361333
+  venue: Zenodo (CERN European Organization for Nuclear Research)
+  abstract_snippet: La investigación experimental sobre emociones y lenguaje requiere
+    corpus de estímulos normados que permitan controlar las características del material
+    y replicar resultados entre estudios. En las últimas décadas se han desarrollado
+    varios corpus de textos afectivos en distintos idiomas (ANET en inglés, MAS en
+    portugués, ANPST en polaco, IDEST en seis idiomas), pero la representación del
+    español la…
   is_oa: true
-  oa_url: https://doi.org/10.9788/tp2017.2-21es
+  oa_url: https://doi.org/10.5281/zenodo.22661316
   cited_by: 0
-  source_query: '"semantic feature" norms Argentina Spanish'
-  relevance_score: 3
-- title: Contrasting the semantic typology biases of Deaf and hearing nonsigners in
-    their conceptualization of time and space
-  authors: María Noel Macedo; Matías Yerro‐Avincetto; Jorge Vivas; Mauricio Castillo;
-    Maximiliano Meliande; Adriana de León; Alejandro Fojo; Roberto Aguirre
+  source_query: rioplatense normas
+  relevance_score: 10
+- title: 'ANET-RS: construcción de un corpus de texto afectivo abierto para psicolingüística
+    en español rioplatense'
+  authors: Natalia Irrazábal; Fernando Tonini
+  year: 2026
+  doi: 10.5281/zenodo.22661131
+  url: https://doi.org/10.5281/zenodo.22661131
+  openalex_id: https://openalex.org/W7211940932
+  venue: Zenodo (CERN European Organization for Nuclear Research)
+  abstract_snippet: La investigación experimental sobre emociones y lenguaje requiere
+    corpus de estímulos normados que permitan controlar las características del material
+    y replicar resultados entre estudios. En las últimas décadas se han desarrollado
+    varios corpus de textos afectivos en distintos idiomas (ANET en inglés, MAS en
+    portugués, ANPST en polaco, IDEST en seis idiomas), pero la representación del
+    español la…
+  is_oa: true
+  oa_url: https://doi.org/10.5281/zenodo.22661131
+  cited_by: 0
+  source_query: rioplatense normas
+  relevance_score: 10
+- title: 'La aspiración de /s/ en español rioplatense: tango vs. rock'
+  authors: Germán Coloma; Laura Colantoni
+  year: 2012
+  doi: null
+  url: http://jornadasfilologiaylinguistica.fahce.unlp.edu.ar/v-jornadas/ColomaColantoni.pdf/view
+  openalex_id: https://openalex.org/W786642421
+  venue: El Servicio de Difusión de la Creación Intelectual (National University of
+    La Plata)
+  abstract_snippet: En el español rioplatense, la aspiración de /s/ preconsonántica
+    es la norma (Terrell 1978), mientras que el debilitamiento en final de palabra
+    ante vocal o pausa parece estar estigmatizado (Fontanella 1973; Barrios 2002).
+    Los hablantes de este dialecto, sin embargo, tienen en principio la capacidad
+    de controlar la tasa de debilitamiento para acercarse a diferentes normas de pronunciación,
+    en espec…
+  is_oa: true
+  oa_url: http://jornadasfilologiaylinguistica.fahce.unlp.edu.ar/v-jornadas/ColomaColantoni.pdf/view
+  cited_by: 0
+  source_query: rioplatense normas
+  relevance_score: 8
+- title: Frecuencia léxica subjetiva en la Lengua de Señas Uruguaya (LSU)
+  authors: Dutra Solano, Martín
+  year: 2025
+  doi: null
+  url: https://hdl.handle.net/20.500.12008/52621
+  openalex_id: https://openalex.org/W7111880209
+  venue: LA Referencia (Red Federada de Repositorios Institucionales de Publicaciones
+    Científicas)
+  abstract_snippet: Esta tesis presenta la construcción de una base de datos normativa
+    de frecuencia subjetiva para la Lengua de Señas Uruguaya (LSU), con el fin de
+    facilitar el desarrollo de investigaciones psicolingüísticas en esta lengua. La
+    investigación surge ante la falta de recursos normativos que permitan controlar
+    el efecto de la frecuencia léxica en la LSU, lo que limita significativamente
+    la posibilidad de…
+  is_oa: true
+  oa_url: https://www.colibri.udelar.edu.uy/jspui/bitstream/20.500.12008/52621/1/uy24-21827.pdf
+  cited_by: 0
+  source_query: '"Rioplatense Spanish" psycholinguistic'
+  relevance_score: 7
+- title: Revisión de instrumentos de evaluación neurocognitiva validados para población
+    argentina
+  authors: Mariana Moreno; Andrea Querejeta; Juan Carlos Godoy; Yamila Farías Sarquís;
+    Evelina Fontana; Luciana Marengo; Lucía Montero
+  year: 2022
+  doi: null
+  url: https://www.cnps.cl/index.php/cnps/article/view/490
+  openalex_id: https://openalex.org/W7217251553
+  venue: Cuadernos de neuropsicología
+  abstract_snippet: R E S U M E NLa evaluación neurocognitiva, es una herramienta
+    importante para el diagnóstico, el planteamiento de estrategias terapéuticas y
+    de rehabilitación, como para investigación, en condiciones normales y patológicas.
+    Por ello es necesario contar con instrumentos que cumplan con criterios psicométricos
+    de validez y confiabilidad. (Ostrosky-Solís. et. al 2012) El presente trabajo
+    es una revis…
+  is_oa: true
+  oa_url: https://www.cnps.cl/index.php/cnps/article/download/490/561
+  cited_by: 0
+  source_query: normas categoriales español rioplatense
+  relevance_score: 5
+- title: 'Tiempos de lectura de oraciones con lenguaje inclusivo en español: un estudio
+    psicolingüístico'
+  authors: Ana Zarwanitzer; Carlos Gelormini‐Lezama
   year: 2023
-  doi: 10.1017/s0142716423000413
-  url: http://dx.doi.org/10.1017/s0142716423000413
-  openalex_id: https://openalex.org/W4388047192
-  venue: Applied Psycholinguistics
-  abstract_snippet: Abstract The mental lexicon offers a window into the configuration
-    of conceptual domains such as space and time, which has been labeled as concrete
-    the former and abstract the latter in the current embodiment approach to cognition.
-    Space has a phonological and semantic value in sign languages, but not in spoken
-    languages. Additionally, the representation of time by spatial means is robust
-    in oral …
+  doi: 10.53680/vertex.v34i159.366
+  url: https://doi.org/10.53680/vertex.v34i159.366
+  openalex_id: https://openalex.org/W4376277489
+  venue: Vertex Revista Argentina de Psiquiatría
+  abstract_snippet: 'Introducción: El lenguaje inclusivo se manifiesta en español
+    en el uso de los morfemas -e y -x, en lugar del masculino genérico. Este estudio
+    aborda el procesamiento de oraciones con lenguaje inclusivo desde la perspectiva
+    de la psicología cognitiva experimental y con las herramientas metodológicas de
+    la psicolingüística. Método: con un experimento de lectura a ritmo personal se
+    examinó la diferen…'
+  is_oa: true
+  oa_url: https://revistavertex.com.ar/ojs/index.php/vertex/article/download/366/345
+  cited_by: 3
+  source_query: '"Rioplatense Spanish" psycholinguistic'
+  relevance_score: 4
+- title: La técnica del fluir de la conciencia joyceana como característica integral
+    del canon literario argentino del siglo XX
+  authors: Michael Dirschel
+  year: 2021
+  doi: 10.48162/rev.54.004
+  url: https://doi.org/10.48162/rev.54.004
+  openalex_id: https://openalex.org/W3204331390
+  venue: Boletín de Literatura Comparada
+  abstract_snippet: La experimentación con la técnica del fluir de la conciencia dentro
+    de la producción literaria argentina del siglo XX es un tema que necesita ser
+    estudiado con mayor profundidad. El presente artículo propone un acercamiento
+    al mismo a través del estudio del impacto de Ulysses, de James Joyce, en la obra
+    de Borges, Marechal, Cortázar y Saer, en particular en cuanto un conjunto de características
+    es…
+  is_oa: true
+  oa_url: https://revistas.uncu.edu.ar/ojs3/index.php/boletinliteratura/article/download/4903/3561
+  cited_by: 0
+  source_query: '"Spanish" "Argentina" "free association" norms'
+  relevance_score: 4
+- title: COMPARACIÓN DE ATRIBUTOS SEMÁNTICOS ENTRE DIFERENTES LENGUAS
+  authors: V Alejandro Lamas; Jorge Ricardo Vivas; Agostina Vorano
+  year: 2012
+  doi: null
+  url: http://www.aacademica.org/000-072/193.pdf
+  openalex_id: https://openalex.org/W2103228876
+  venue: IV Congreso Internacional de Investigación y Práctica Profesional en Psicología
+    XIX Jornadas de Investigación VIII Encuentro de Investigadores en Psicología del
+    MERCOSUR
+  abstract_snippet: Las normas de produccion de atributos proveen valiosa informacion
+    para conocer el funcionamiento y la estructura de la memoria semantica. En el
+    marco de un proyecto mas amplio, destinado a la construccion de normas argentinas,
+    se elaboro este trabajo abordando siete conceptos pertenecientes a diferentes
+    categorias semanticas para compararlos con las normas disponibles en aleman, ingles
+    e italiano.…
   is_oa: false
   oa_url: null
-  cited_by: 0
-  source_query: sugeridos.txt
-  relevance_score: 99
+  cited_by: 2
+  source_query: '"semantic feature" norms Argentina Spanish'
+  relevance_score: 4
+- title: 'PicPsy: A new bank of 106 photographs and line drawings with written naming
+    norms for Spanish-speaking children and adults'
+  authors: Naroa Martínez; Helena Matute; Edurne Goikoetxea
+  year: 2020
+  doi: 10.1371/journal.pone.0238976
+  url: https://doi.org/10.1371/journal.pone.0238976
+  openalex_id: https://openalex.org/W3084775515
+  venue: PLoS ONE
+  abstract_snippet: The use of pictures as experimental stimuli is a frequent practice
+    in psychological and educational research. In addition, picture-naming task allows
+    the study of different cognitive processes such as perception, attention, memory
+    and language. Line drawings have been widely used in research to date but it has
+    begun to be highlighted the need for more ecological stimuli such as photographs.
+    Howeve…
+  is_oa: true
+  oa_url: https://journals.plos.org/plosone/article/file?id=10.1371/journal.pone.0238976&type=printable
+  cited_by: 7
+  source_query: picture norms Argentine Spanish
+  relevance_score: 3
